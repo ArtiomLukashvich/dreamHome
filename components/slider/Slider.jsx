@@ -20,6 +20,13 @@ const Slider = () => {
 		margin: 30px 0;
 	`
 
+	const SlideHeader = styled.div`
+		position: absolute;
+		top: 80%;
+		left: 2%;
+		text-align: center;
+	`
+
 	return (
 		<>
 			<TitleText>
@@ -32,13 +39,19 @@ const Slider = () => {
 						{slides.map(index => (
 							<div className='embla__slide' key={index}>
 								<div className='embla__slide__inner'>
-									<Image
-										src={mediaByIndex(index)}
-										alt='Dream House.'
-										width={1500}
-										height={600}
-										objectFit='cover'
-									/>
+									<a href={mediaByIndex(index).url} target='_blanc'>
+										<Image
+											src={mediaByIndex(index).path}
+											alt='Dream House.'
+											width={1500}
+											height={600}
+											objectFit='cover'
+										/>
+									</a>
+									<SlideHeader>
+										<Title>{mediaByIndex(index).title}</Title>
+										{mediaByIndex(index).country}
+									</SlideHeader>
 								</div>
 							</div>
 						))}
