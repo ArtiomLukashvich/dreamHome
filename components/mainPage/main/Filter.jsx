@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import styled from 'styled-components'
-import { setFilterItems } from '../features/housesSlice'
+import { setFilterItems } from '../../features/housesSlice'
 
 const Wrapper = styled.ul`
 	width: 80%;

@@ -1,5 +1,5 @@
 import Footer from './footer/Footer'
-import Nav from './header/Nav'
+import Nav from './Nav'
 import WishList from './wishList/WishList'
 
 export default function Layout({ children }) {

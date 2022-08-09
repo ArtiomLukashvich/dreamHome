@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Nav from './Nav'
+import Nav from '../Nav'
 import image from '../../public/header_image.png'
 import styled from 'styled-components'
 

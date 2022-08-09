@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import Button from '../Button'
 import Filter from './Filter'
 import HouseItem from './HouseItem'
 import { useSelector, useDispatch } from 'react-redux'
-import { getHouseItems } from '../features/housesSlice'
+import { getHouseItems } from '../../features/housesSlice'
 
 const Wrapper = styled.div`
 	display: grid;

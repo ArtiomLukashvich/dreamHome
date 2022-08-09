@@ -1,7 +1,14 @@
+import Head from 'next/head'
 import React from 'react'
 
 const HomePage = () => {
-	return <div>homePage</div>
+	return (
+		<div style={{ height: '100vh' }}>
+			<Head>
+				<title>House info</title>
+			</Head>
+		</div>
+	)
 }
 
 export default HomePage

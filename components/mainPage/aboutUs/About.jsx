@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-import aboutImage from '../../public/aboutImage.png'
-import Title from '../Title'
+import aboutImage from '../../../public/aboutImage.png'
+import Title from '../../Title'
 
 const Wrapper = styled.div`
 	user-select: none;

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import InfoContainer from './InfoContainer'
 import { AiFillStar } from 'react-icons/ai'
 import { useDispatch } from 'react-redux'
-import { addItemWishList } from '../features/housesSlice'
+import { addItemWishList } from '../../features/housesSlice'
 
 const ItemContent = styled.div`
 	position: relative;

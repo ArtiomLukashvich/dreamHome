@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Button from '../Button'
-import Title from '../Title'
+import Button from '../../Button'
+import Title from '../../Title'
 
 const Wrapper = styled.div`
 	margin: 20px;

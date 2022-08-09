@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import useEmblaCarousel from 'embla-carousel-react'
 import { mediaByIndex, media } from './Media'
 import Image from 'next/image'
-import Title from '../Title'
+import Title from '../../Title'
 
 const Slider = () => {
 	const [viewportRef, embla] = useEmblaCarousel({

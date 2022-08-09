@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import About from '../components/aboutUs/About'
-import ContactUs from '../components/contactUs/ContactUs'
+import About from '../components/mainPage/aboutUs/About'
+import ContactUs from '../components/mainPage/contactUs/ContactUs'
 import Header from '../components/header/Header'
-import MainContent from '../components/main/MainContent'
-import Slider from '../components/slider/Slider'
+import MainContent from '../components/mainPage/main/MainContent'
+import Slider from '../components/mainPage/slider/Slider'
 
 export default function Home() {
 	return (

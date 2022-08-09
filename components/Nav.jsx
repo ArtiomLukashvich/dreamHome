@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-import logo from '../../public/logo.png'
 import Link from 'next/link'
+import logo from '../public/logo.png'
 
 const Navbar = styled.div`
 	display: flex;
