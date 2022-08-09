@@ -13,7 +13,12 @@ const ButtonStyle = styled.button`
 
 const Button = ({ children, fun, type }) => {
 	return (
-		<ButtonStyle type={type} onClick={fun}>
+		<ButtonStyle
+			type={type}
+			onClick={() => {
+				fun
+			}}
+		>
 			{children}
 		</ButtonStyle>
 	)
