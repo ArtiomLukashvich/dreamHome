@@ -1,8 +1,8 @@
-import React from 'react'
 import Image from 'next/image'
+import React from 'react'
 import { AiFillDelete } from 'react-icons/ai'
-import styled from 'styled-components'
 import { useDispatch } from 'react-redux'
+import styled from 'styled-components'
 import { removeItemFromWishList } from '../features/housesSlice'
 
 const RemoveIcon = styled(AiFillDelete)`
